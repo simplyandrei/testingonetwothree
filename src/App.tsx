@@ -50,10 +50,6 @@ function App() {
     }));
   };
 
-  const printTab = () => {
-    console.log(tabs);
-  }
-
   function calculateFinalGrade(tabs: Tab[]): number {
     let finalGrade = 0;
     
@@ -91,7 +87,7 @@ function App() {
           </div>
 
           <div className='d-flex align-items-stretch justify-content-center mt-4'>
-            <button type="button" className="btn btn-primary" onClick={printFinalGrade}>Calculate</button>
+            <button type="button" className="btn btn-primary" onClick={printFinalGrade}>WAHHHHH</button>
           </div>
 
           <h1>Score is: {calculateFinalGrade(tabs).toFixed(1)}</h1>

@@ -9,7 +9,7 @@ interface TabProps {
     onAddScore: (tabId: number, label: string, score: number, totalScore: number) => void;
 }
 
-export default function Tab({ tab, onUpdateName, onUpdateWeight, onDelete, onAddScore }: TabProps) {
+export default function Tab({ tab, onDelete, onAddScore }: TabProps) {
     const [showModal, setShowModal] = useState(false);
     const [label, setLabel] = useState("");
     const [score, setScore] = useState(0);
